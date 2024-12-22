@@ -32,7 +32,7 @@
 ![Project Demo](assets/manual_control.gif)
   
 ### 객체 탐지
-- OpenCV DNN + MobileNet v2를 활용해서 객체탐지 기능을 구현함.
+OpenCV DNN + MobileNet v2를 활용해서 객체탐지 기능을 구현함.
 ![Project Demo](assets/object_detection1.png)
 ![Project Demo](assets/object_detection2.png)
 
