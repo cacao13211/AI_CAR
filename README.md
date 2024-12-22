@@ -1,20 +1,20 @@
 # AI_CAR
 9조 임베디드 프로젝트  
 라즈베리파이를 활용한 자율주행 모형 자동차 구현 프로젝트
-
+  
 ## 팀 소개
 팀 소개 및 역할을 여기제 작성
-
+  
 ## Team Members
 
-| Name                   | Role                | GitHub Profile                         |
-|------------------------|---------------------|----------------------------------------|
-| **John Doe**           | Project Manager     | [johndoe](https://github.com/johndoe)  |
-| **Jane Smith**         | Backend Developer   | [janesmith](https://github.com/janesmith) |
-| **Alice Johnson**      | Frontend Developer  | [alicejohnson](https://github.com/alicejohnson) |
-| **Bob Brown**          | UI/UX Designer      | [bobbrown](https://github.com/bobbrown) |
+|   이름               |     학번     | 역할                |
+|----------------------| --------------|---------------------|
+| **이기원**          | 20170776      | [johndoe](https://github.com/johndoe)  |
+| **강민재**          | 00000000      | [janesmith](https://github.com/janesmith) |
+| **이재찬**          | 00000000      | [alicejohnson](https://github.com/alicejohnson) |
+| **한성룡**          | 00000000      | [bobbrown](https://github.com/bobbrown) |
 
-
+  
 
 ## DEMO
 ### 자율주행 기능
