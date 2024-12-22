@@ -79,7 +79,7 @@
 #### 이미지 전처리 작업
 |    전처리 전         |     전처리 후        |
 |----------------------|-----------------------|
-| ![전처리 전 이미지]  | ![전처리 후 이미지]   |
+| ![전처리 전 이미지](assets/before_preprocessed.png)  | ![전처리 후 이미지](assets/after_preprocessed.png)   |
   
 - 자율주행 모델
   - [end to end learning for self-driving cars](https://developer.nvidia.com/blog/deep-learning-self-driving-cars/)에 소개된 CNN 모델 구조를 활용
