@@ -24,14 +24,15 @@
 ![Project Demo](assets/self-driving_right.gif)
   
 ### 비상정지 기능 
-- 카메라가 사람을 탐지하면 멈추는 기능을 구현함.
+카메라가 사람을 탐지하면 멈추는 기능을 구현함.
+  
 ![Project Demo](assets/stop.gif)
 
 ### 수동조작 기능
 ![Project Demo](assets/manual_control.gif)
   
 ### 객체 탐지
-- OpenCV DNN + MobileNet v2를 활용해서 객체탐지 기능을 구현함.
+OpenCV DNN + MobileNet v2를 활용해서 객체탐지 기능을 구현함.
 ![Project Demo](assets/object_detection1.png)
 ![Project Demo](assets/object_detection2.png)
 
@@ -184,7 +185,7 @@ AI_CAR
 #### HPF 적용 예시
 |    적용 전         |     적용 후        |
 |--------------------|---------------------|
-| ![적용 전 이미지]  | ![적용 후 이미지]   |
+| ![적용 전 이미지](assets/after_preprocessed.png)  | ![적용 후 이미지](assets/HPF.png)   |
   
 2. 객체를 탐지하는 시간 간의 간격을 늘려 문제를 해결함
   - 3초에 한번씩 이미지를 분석하여 객체를 탐지함
