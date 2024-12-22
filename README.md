@@ -15,21 +15,28 @@
 ## DEMO
 ### 자율주행 기능
 - 좌회전
-
-
+![Project Demo](assets/self-driving_left.gif)
+  
 - 우회전
-
+![Project Demo](assets/self-driving_right.gif)
+  
 ### 비상정지 기능 
 - 카메라가 사람을 탐지하면 멈추는 기능을 구현함.
+![Project Demo](assets/stop.gif)
 
+### 수동조작 기능
+![Project Demo](assets/manual_control.gif)
+  
 ### 객체 탐지
-객체 팀지 이미지 첨부
+- OpenCV DNN + MobileNet v2를 활용해서 객체탐지 기능을 구현함.
+![Project Demo](assets/object_detection1.png)
+![Project Demo](assets/object_detection2.png)
   
 ## 파일구조
 파일 구조에 대한 설명
   
 ## 프로젝트 구조
-여기에다가 구조도 첨부
+![전체 시스템 구조](assets/project.png)
    
 ## 문제점 및 해결 방안
 
