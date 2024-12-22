@@ -58,9 +58,10 @@
 - 학습 데이터를 만들려면 `gathering_data.py`를 실행한다.
 - 장애물 탐지기능만 사용하려면 `real-time_detection.py`를 실행한다.
 
-   
+
+  
 ## 파일구조
-파일 구조에 대한 설명
+
 
 
 ## 시스템 구조
@@ -120,7 +121,27 @@
 - 이를 해결하기 위해 멀티쓰레드 기능을 활용
 - 모터는 전역변수 'carState'의 값에 의해 제어되므로 동시성 문제를 해결하기 위해 `mutex`를 활용
   
-[c 소스 코드에 대한 설명을 여기에 첨부하기]
+### motor_control.c
+#### 상태 변수
+전역 변수로 선언됨
+- `MotorState current_state` : 현재 모터 상태를 나타냄 (`carState` 변수는 이 `current_state`변수를 가리킴`)
+- `double current_speed` : 현재 모터의 회전 속도값을 저장함
+- `pthread_mutex_t state_lock` : 동시성 문제를 해결하기 위한 mutex 변수
+
+#### 함수
+- `init_motor_contorl()`
+    - PinMdode 및 초기 상태 설정 후 모터 제어 thread를 시작함
+- `motor_control_thread()`
+    - 모터 상태를 관리하는 쓰레드 함수
+    - 무한 루프를 돌면서 `current_state`의 값을 갱신
+    - 상태 변수의 값을 갱신 후 `set_motor_state()` 함수를 호출하여 모터를 제어
+- `set_motor_state(MotorState state, double speed)`
+    - state 상태 변수 값에 따라 모터 상태를 설정하는 함수
+- `motor_go_c()`, `motor_back_c()`, `motor_left_c()`, `motor_right_c()`, `motor_stop_c()`
+    - `current_state` 상태 변수 값을 변경하는 제어함수
+- `init_motor`, `motor_go_py`, `motor_back_py`, `motor_left_py`, `motor_right_py`, `motor_stop_py`
+    - 외부(파이썬 소스파일)에서 호출할 수 있도록 제어함수를 감싸는 wrapper 함수
+
   
 ## 문제점 및 해결방안
 ### 문제점
