@@ -24,7 +24,7 @@
 ![Project Demo](assets/self-driving_right.gif)
   
 ### 비상정지 기능 
-- 카메라가 사람을 탐지하면 멈추는 기능을 구현함.
+카메라가 사람을 탐지하면 멈추는 기능을 구현함.
   
 ![Project Demo](assets/stop.gif)
 
