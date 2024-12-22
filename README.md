@@ -50,7 +50,9 @@
 5. Thonny IDE를 재실행한다.
 6. 오른쪽 하단에 `Local Python3` 부분을 클릭 후 Configure interpreter를 클릭한다.
 7. 파이썬 실행 경로를 `~/AI_CAR/env/bin/python`으로 변경한다.
+8. `pip install opencv-python`과 `pip install tensorflow==2.15.0`을 실행해 opencv와 tensorflow 라이브러리를 설치한다. 
   
+
 
 #### 실행하기
 - 모든 기능을 사용하려면 `automated_driving_dnn.py`를 실행한다.
