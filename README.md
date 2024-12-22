@@ -52,7 +52,7 @@
   - 파이썬의 표준 라이브러리 `ctypes`를 활용
   - `motor_contorl.c`를 컴파일하려 동적 라이브러리인 `libmotor.so`를 생성
   - 파이썬 파일에서 libmotor.so 객체를 생성하여 c 라이브러리를 로드함.
-  컴파일 명령:
+  ###### 컴파일 명령:
   ```bash
   gcc -shared -o libmotor.so -fPIC -motor_control.c -lwiringPi -lpthread
   ```
