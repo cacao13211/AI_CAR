@@ -34,13 +34,35 @@
 - OpenCV DNN + MobileNet v2를 활용해서 객체탐지 기능을 구현함.
 ![Project Demo](assets/object_detection1.png)
 ![Project Demo](assets/object_detection2.png)
+
+
+   
+## 사용법
+0. 홈 디렉토리에 해당 `repository`를 `clone`한다
     
+ 
+#### 가상환경 설정
+0. Thonny 파이썬 IDE가 없으면 설치한다.
+1. 프로젝트 루트 디렉토리`(~/AI_CAR/)`에 env 폴더를 생성한다.
+2. 터미널을 열고 `~/AI_CAR/env`로 이동한다.
+3. `~/AI_CAR/env' 경로에서 'python -m venv --system-site-packages env' 명령어를 실행한다.
+4. Thonny IDE를 regular mode로 설정한다. (오른쪽 상단에 `Switch to regular mode`를 클릭)
+5. Thonny IDE를 재실행한다.
+6. 오른쪽 하단에 `Local Python3` 부분을 클릭 후 Configure interpreter를 클릭한다.
+7. 파이썬 실행 경로를 `~/AI_CAR/env/bin/python`으로 변경한다.
+  
+
+#### 실행하기
+- 모든 기능을 사용하려면 `automated_driving_dnn.py`를 실행한다.
+- 자율주행 기능만 사용하려면 `automaged_driving.py`를 실행한다.
+- 학습 데이터를 만들려면 `gathering_data.py`를 실행한다.
+- 장애물 탐지기능만 사용하려면 `real-time_detection.py`를 실행한다.
+
+   
 ## 파일구조
 파일 구조에 대한 설명
 
-## 실행 파일
 
-  
 ## 시스템 구조
 ![전체 시스템 구조](assets/project.png)
 - `automated_driving_dnn.py`
