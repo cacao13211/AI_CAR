@@ -55,6 +55,7 @@
 
 
 #### 실행하기
+Thonny IDE로 다음 파일을 실행한다.
 - 모든 기능을 사용하려면 `automated_driving_dnn.py`를 실행한다.
 - 자율주행 기능만 사용하려면 `automaged_driving.py`를 실행한다.
 - 학습 데이터를 만들려면 `gathering_data.py`를 실행한다.
