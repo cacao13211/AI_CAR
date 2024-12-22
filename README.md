@@ -73,7 +73,7 @@ AI_CAR
 │   └───backup                         // 자율주행 모델 백업본
 ├───OpencvDnn                          // 장애물 탐지 모델
 │   ├───models
-│   ├───frozen_inference_graph.pb              // 장애물 탐지 모델 (ssd_mobilenet_v2)
+│   ├───frozen_inference_graph.pb      // 장애물 탐지 모델 (ssd_mobilenet_v2)
 │   ├───ssd_mobilenet_v2_coco_2018_03_29.pbtxt
 │
 ├───video                        // 학습 데이터 이미지가 저장되는 폴더
