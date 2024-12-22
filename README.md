@@ -72,7 +72,13 @@ AI_CAR
 │   └───backup    // 자율주행 모델 백업본
 ├───OpencvDnn     // 장애물 탐지 모델 (mobileNet)
 │   └───models
-└───video         // 학습 데이터 이미지가 저장되는 폴더
+├───video         // 학습 데이터 이미지가 저장되는 폴더
+├───automated_driving_dnn.py     // 자율주행 자동차를 구동하는 코드
+├───automaged_driving.py         // 자율주행 기능 테스트 코드
+├───gathering_data.py            // 학습 데이터 수집을 위한 코드
+├───mycamera.py                  // 카메라 제어 코드
+├───motor_control.c              // 모터 제어를 담당하는 C 소스 코드
+└───libmotor.so                  // C 파일을 컴파일해서 만든 동적 라이브러리
 ```
 
 
