@@ -65,7 +65,8 @@ Thonny IDE로 다음 파일을 실행한다.
   
 ## 파일구조
 
-.root
+```
+AI_CAR
 +---assets		    // readme.md에 첨부할 png, gif를 보관
 +---env			    // 가상환경 폴더
 +---model		    // 자율주행 모델
@@ -73,7 +74,7 @@ Thonny IDE로 다음 파일을 실행한다.
 +---OpencvDnn		// 장애물 탐지 모델 (mobileNet)
 ¦   +---models
 +---video		    // 학습 데이터 이미지가 저장되는 폴더
-
+```
 
 
 ## 시스템 구조
